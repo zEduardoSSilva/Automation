@@ -61,7 +61,7 @@ time.sleep(8)
 # Passo 6 - Enviar por Email o Relatorio
 
 pyautogui.click(x=38, y=200)
-pyautogui.write("eduardossilva12@gmail.com")
+pyautogui.write("email@gmail.com")
 pyautogui.press("tab") #Seleciona Email
 pyautogui.press("tab") #Pula pro Campo de Assunto
 pyperclip.copy("Relatorio de Vendas") #Escrever o Assunto
